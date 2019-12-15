@@ -1,0 +1,31 @@
+@import url(../../../stylesheets/application.css);
+
+/* Issues grid priority column color by priorities */
+td.priority { background-color: #abfda0; }
+tr.priority-highest td.priority { color: #FFF;  background-color: #F00; }
+tr.priority-high2   td.priority { color: #FFF; background-color: #B00000; }
+tr.priority-high3   td.priority { color: #FFF; background-color: orange; }
+/* tr.priority-default td.priority { color: black; } */
+tr.priority-lowest  td.priority { color: gray; }
+
+tr.priority-7 td.priority { color: #FFF;  background-color: #a2daff; }
+
+/* Make subprojects bold on project list */
+div.child a.project { font-weight: bold; }
+
+/* Hide my-project legend */
+span.my-project { display: none; }
+
+/* Project links */
+a.project { color: grey; }
+
+/* My project links */
+a.my-project {
+	background: none;
+	padding: 0;
+	color: #116699;
+}
+
+body {
+	zoom: 1.2;
+}
